@@ -13,7 +13,8 @@ let randomResponses = [
 function giveResponse(event) {
   event.preventDefault();
   let randomResponse = Math.floor(Math.random() * 8);
-  outElement.innerHTML = randomResponse[randomResponse];
+  outElement.innerHTML = randomResponses[randomResponse];
+  inputElement.value = "";
 }
 
 let outputButton = document.querySelector("#submit");
