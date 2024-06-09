@@ -14,4 +14,29 @@ h1 {
 }
 h2 {
   font-size: 30px;
+  font-weight: 600;
+}
+input {
+  padding: 15px 25px;
+  width: 200px;
+  border: 3px solid #d90429;
+  border-radius: 15px;
+  font-size: 15px;
+}
+::placeholder {
+  font-style: italic;
+}
+#submit {
+  width: 120px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+#submit:hover {
+  background-color: #d90429;
+  color: white;
+}
+#output {
+  color: #d90429;
+  font-size: 20px;
+  font-weight: 600;
 }
