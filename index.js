@@ -12,10 +12,13 @@ let randomResponses = [
 ];
 function giveResponse(event) {
   event.preventDefault();
-  let randomResponse = Math.floor(Math.random() * 8);
-  outElement.innerHTML = randomResponses[randomResponse];
-  inputElement.value = "";
+  if (inputElement.value === "") {
+    alert("Please ask a question first");
+  } else {
+    let randomResponse = Math.floor(Math.random() * 8);
+    outElement.innerHTML = randomResponses[randomResponse];
+    inputElement.value = "";
+  }
 }
-
 let outputButton = document.querySelector("#submit");
 outputButton.addEventListener("click", giveResponse);
