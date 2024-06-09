@@ -30,10 +30,12 @@ input {
   width: 120px;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
-}
-#submit:hover {
   background-color: #d90429;
   color: white;
+}
+#submit:hover {
+  background-color: white;
+  color: #d90429;
 }
 #output {
   color: #d90429;
