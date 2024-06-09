@@ -2,9 +2,16 @@ body {
   margin: 0;
   background-color: #6c757d;
   font-family: "Inter", sans-serif;
+  text-align: center;
 }
 h1 {
   text-align: center;
   font-size: 45px;
   color: white;
+}
+.red {
+  color: #d90429;
+}
+h2 {
+  font-size: 30px;
 }
